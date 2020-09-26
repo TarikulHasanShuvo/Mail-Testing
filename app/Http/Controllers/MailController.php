@@ -17,8 +17,8 @@ class MailController extends Controller
         ];
 
         Mail::send('mail',['data' => $inputs],function ($mail) use ($inputs) {
-            $mail->from($inputs['mail'],$inputs['name'])
-                ->to('tarikulhasanshuvo7944@gmail.com','Shuvo')
+            $mail->from($inputs['mail'])
+                ->to('tarikulhasanshuvo7944@gmail.com')
                 ->subject('Test Mail');
         });
 
