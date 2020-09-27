@@ -1,0 +1,15 @@
+	
+    //Create Mail
+ ## php artisan make:mail Name -m
+
+    //Create Notification
+ ## php artisan make:Notification Name 
+
+   //Create Notification with Blade File
+ ## php artisan make:notification InvoicePaid --markdown=mail.invoice.paid
+
+
+    //Create Queqe Table
+ ## php artisan queqe:table
+ ## php artisan migrate
+ ##In .env file change QUEUE_CONNECTION=database 
