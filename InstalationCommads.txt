@@ -6,7 +6,7 @@
  ## php artisan make:Notification Name 
 
    //Create Notification with Blade File
- ## php artisan make:notification InvoicePaid --markdown=mail.invoice.paid
+ ## php artisan make:notification Name --markdown=mail.Directroy.Name
 
 
     //Create Queqe Table
